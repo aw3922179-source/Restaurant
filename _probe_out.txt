@@ -1,0 +1,25 @@
+
+lightbox_display_on_load = none
+toast_display_on_load = none
+nav_overlay_display_on_load = none
+info_icons_svg_count = 4
+lightbox_display_after_open = grid
+lightbox_display_after_close = none
+errors_on_empty_submit = 4
+name_error_text = Please enter your name.
+bad_email_error = Please enter a valid email address.
+errors_after_valid_submit = 0
+toast_shown_after_submit = true
+toast_is_success = true
+toast_message = Thank you, Jane Doe — your table is requested for 4 guests on 2030-05-20 at 19:30.
+name_field_value_after_submit = []
+email_field_value_after_submit = []
+time_field_value_after_submit = [19:00]
+date_field_value_after_submit = []
+guests_field_value_after_submit = [2 guests]
+submit_button_enabled = true
+submit_button_label = Confirm Reservation
+cards_after_pasta_filter = 3
+active_tab = Pasta & Rice
+
+DOM_BYTES=36762

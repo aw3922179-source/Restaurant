@@ -1,0 +1,700 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#0b0b0f">
+  <title>Savor — Modern Fine Dining Experience</title>
+  <meta name="description" content="Savor is a modern fine-dining restaurant serving seasonal, chef-crafted plates. Explore our menu, story, gallery and reserve your table online.">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500&amp;family=Inter:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%8D%BD%EF%B8%8F%3C/text%3E%3C/svg%3E">
+</head>
+<body class="">
+
+  <!-- ============ PRELOADER ============ -->
+  
+
+  <!-- ============ HEADER / NAV ============ -->
+  <header class="header is-stuck" id="header">
+    <div class="container header__inner">
+      <a href="#home" class="brand" aria-label="Savor home">
+        <span class="brand__mark">S</span>
+        <span class="brand__text">
+          <strong>Savor</strong>
+          <small>Fine Dining</small>
+        </span>
+      </a>
+
+      <nav class="nav" id="nav" aria-label="Primary">
+        <ul class="nav__list">
+          <li><a class="nav__link" href="#home">Home</a></li>
+          <li><a class="nav__link" href="#about">About</a></li>
+          <li><a class="nav__link" href="#menu">Menu</a></li>
+          <li><a class="nav__link" href="#chef">Chef</a></li>
+          <li><a class="nav__link" href="#gallery">Gallery</a></li>
+          <li><a class="nav__link is-active" href="#reservation">Contact</a></li>
+        </ul>
+        <a href="#reservation" class="btn btn--gold nav__cta">Book a Table</a>
+      </nav>
+
+      <button class="burger" id="burger" aria-label="Open menu" aria-expanded="false" aria-controls="nav">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+  <div class="nav-overlay" id="navOverlay" hidden=""></div>
+
+  <main>
+    <!-- ============ HERO ============ -->
+    <section class="hero" id="home">
+      <div class="hero__bg" aria-hidden="true">
+        <img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&amp;fit=crop&amp;w=2000&amp;q=80" alt="" fetchpriority="high">
+        <span class="hero__scrim"></span>
+      </div>
+
+      <div class="container hero__inner">
+        <p class="eyebrow is-visible" data-reveal="" style="transition-delay: 0ms;">Est. 2009 · Seasonal Kitchen</p>
+        <h1 class="hero__title is-visible" data-reveal="" style="transition-delay: 70ms;">
+          Where every plate tells a
+          <span class="text-gold">delicious story</span>
+        </h1>
+        <p class="hero__lead is-visible" data-reveal="" style="transition-delay: 140ms;">
+          A modern fine-dining destination built on seasonal produce, quiet craft
+          and an obsession with flavour. Join us for a table you will remember.
+        </p>
+
+        <div class="hero__actions is-visible" data-reveal="" style="transition-delay: 210ms;">
+          <a href="#reservation" class="btn btn--gold btn--lg">Reserve a Table</a>
+          <a href="#menu" class="btn btn--ghost btn--lg">Explore Menu</a>
+        </div>
+
+        <ul class="hero__stats is-visible" data-reveal="" style="transition-delay: 280ms;">
+          <li>
+            <span class="stat"><b data-count="16">16</b><i>+</i></span>
+            <small>Years of Craft</small>
+          </li>
+          <li>
+            <span class="stat"><b data-count="48">48</b><i>+</i></span>
+            <small>Signature Dishes</small>
+          </li>
+          <li>
+            <span class="stat"><b data-count="2">2</b><i>★</i></span>
+            <small>Michelin Stars</small>
+          </li>
+          <li>
+            <span class="stat"><b data-count="35">35</b><i>k</i></span>
+            <small>Happy Guests</small>
+          </li>
+        </ul>
+      </div>
+
+      <a href="#about" class="hero__scroll" aria-label="Scroll to content">
+        <span></span>
+      </a>
+    </section>
+
+    <!-- ============ ABOUT ============ -->
+    <section class="section about" id="about">
+      <div class="container about__grid">
+        <div class="about__media is-visible" data-reveal="" style="transition-delay: 0ms;">
+          <img class="about__img about__img--main" src="https://images.unsplash.com/photo-1552566626-52f8b828add9?auto=format&amp;fit=crop&amp;w=900&amp;q=80" alt="Guests dining inside the Savor restaurant" loading="lazy">
+          <img class="about__img about__img--sub" src="https://images.unsplash.com/photo-1551218808-94e220e084d2?auto=format&amp;fit=crop&amp;w=700&amp;q=80" alt="Close-up of a chef plating a fine-dining dish" loading="lazy">
+          <div class="about__badge">
+            <b>16</b>
+            <span>years of<br>hospitality</span>
+          </div>
+        </div>
+
+        <div class="about__body">
+          <p class="eyebrow is-visible" data-reveal="" style="transition-delay: 0ms;">Our Story</p>
+          <h2 class="section__title is-visible" data-reveal="" style="transition-delay: 70ms;">
+            A kitchen guided by <span class="text-gold">season &amp; soul</span>
+          </h2>
+          <p class="lead is-visible" data-reveal="" style="transition-delay: 140ms;">
+            Savor began as a twelve-seat counter with one idea: cook honestly with
+            what the land gives us. Today we still source from the same small farms,
+            still hand-roll our pastas, and still greet most guests by name.
+          </p>
+          <p data-reveal="">
+            Our menu changes with the harvest. Plates are built around a single hero
+            ingredient, then layered with technique gathered across three continents.
+            The result is food that feels both familiar and entirely new.
+          </p>
+
+          <ul class="about__list" data-reveal="">
+            <li><span class="tick">✓</span> Farm-to-table sourcing, daily deliveries</li>
+            <li><span class="tick">✓</span> Seasonal menu rewritten every 10 weeks</li>
+            <li><span class="tick">✓</span> Vegetarian, vegan &amp; gluten-free options</li>
+            <li><span class="tick">✓</span> Private dining &amp; chef's table experiences</li>
+          </ul>
+
+          <div class="about__actions" data-reveal="">
+            <a href="#chef" class="btn btn--gold">Meet the Chef</a>
+            <a href="#menu" class="btn btn--link">See the full menu →</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ MENU ============ -->
+    <section class="section section--alt menu" id="menu">
+      <div class="container">
+        <header class="section__head">
+          <p class="eyebrow" data-reveal="">The Menu</p>
+          <h2 class="section__title" data-reveal="">
+            Crafted to be <span class="text-gold">shared &amp; savoured</span>
+          </h2>
+          <p class="section__sub" data-reveal="">
+            A tasting of the plates our guests keep coming back for. Filter by course
+            to build your perfect evening.
+          </p>
+        </header>
+
+        <div class="menu__tabs" id="menuTabs" role="tablist" aria-label="Menu categories" data-reveal="">
+        <button class="tab" role="tab" data-cat="all" aria-selected="false">All</button>
+        <button class="tab" role="tab" data-cat="starters" aria-selected="false">Starters</button>
+        <button class="tab" role="tab" data-cat="mains" aria-selected="false">Mains</button>
+        <button class="tab is-active" role="tab" data-cat="pasta" aria-selected="true">Pasta &amp; Rice</button>
+        <button class="tab" role="tab" data-cat="desserts" aria-selected="false">Desserts</button>
+        <button class="tab" role="tab" data-cat="drinks" aria-selected="false">Drinks</button></div>
+
+        <div class="menu__grid" id="menuGrid" aria-live="polite" style="opacity: 1; transition: opacity 0.35s;">
+      <article class="menu-card is-visible" data-reveal="" style="transition-delay: 0ms;">
+        <div class="menu-card__thumb">
+          <img src="https://images.unsplash.com/photo-1546833999-b9f581a1996d?auto=format&amp;fit=crop&amp;w=300&amp;q=80" alt="Truffle Tagliatelle" loading="lazy">
+        </div>
+        <div class="menu-card__body">
+          <div class="menu-card__top">
+            <h3 class="menu-card__name">Truffle Tagliatelle</h3>
+            <span class="menu-card__dots"></span>
+            <span class="menu-card__price">$34</span>
+          </div>
+          <p class="menu-card__desc">Hand-rolled pasta, aged parmesan cream and shaved winter truffle.</p>
+          <div class="menu-card__badges"><span class="badge badge--veg">Veg</span><span class="badge">Chef's Pick</span></div>
+        </div>
+      </article>
+      <article class="menu-card is-visible" data-reveal="" style="transition-delay: 45ms;">
+        <div class="menu-card__thumb">
+          <img src="https://images.unsplash.com/photo-1563379926898-05f4575a45d8?auto=format&amp;fit=crop&amp;w=300&amp;q=80" alt="Lobster Linguine" loading="lazy">
+        </div>
+        <div class="menu-card__body">
+          <div class="menu-card__top">
+            <h3 class="menu-card__name">Lobster Linguine</h3>
+            <span class="menu-card__dots"></span>
+            <span class="menu-card__price">$42</span>
+          </div>
+          <p class="menu-card__desc">Native lobster, white wine, chilli, cherry tomato and fresh basil.</p>
+          <div class="menu-card__badges"><span class="badge badge--spicy">Spicy</span></div>
+        </div>
+      </article>
+      <article class="menu-card is-visible" data-reveal="" style="transition-delay: 90ms;">
+        <div class="menu-card__thumb">
+          <img src="https://images.unsplash.com/photo-1476124369491-e7addf5db371?auto=format&amp;fit=crop&amp;w=300&amp;q=80" alt="Wild Mushroom Risotto" loading="lazy">
+        </div>
+        <div class="menu-card__body">
+          <div class="menu-card__top">
+            <h3 class="menu-card__name">Wild Mushroom Risotto</h3>
+            <span class="menu-card__dots"></span>
+            <span class="menu-card__price">$28</span>
+          </div>
+          <p class="menu-card__desc">Carnaroli rice, forest mushrooms, thyme and 24-month parmesan.</p>
+          <div class="menu-card__badges"><span class="badge badge--veg">Veg</span></div>
+        </div>
+      </article></div>
+
+        <p class="menu__note" data-reveal="">
+          Allergen information available on request · Prices include taxes
+        </p>
+      </div>
+    </section>
+
+    <!-- ============ SIGNATURE ============ -->
+    <section class="section signature" id="signature">
+      <div class="container">
+        <header class="section__head section__head--row">
+          <div>
+            <p class="eyebrow" data-reveal="">Chef's Choice</p>
+            <h2 class="section__title" data-reveal="">Tonight's <span class="text-gold">signatures</span></h2>
+          </div>
+          <a href="#menu" class="btn btn--ghost" data-reveal="">View all dishes</a>
+        </header>
+
+        <div class="signature__grid">
+          <article class="dish dish--feature" data-reveal="">
+            <img src="https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&amp;fit=crop&amp;w=1200&amp;q=80" alt="Dry-aged ribeye with bone marrow butter" loading="lazy">
+            <span class="dish__tag">Signature</span>
+            <div class="dish__body">
+              <h3>48-Hour Aged Ribeye</h3>
+              <p>Charcoal-seared, bone-marrow butter, smoked sea salt and a red-wine reduction.</p>
+              <span class="dish__price">$46</span>
+            </div>
+          </article>
+
+          <article class="dish dish--feature" data-reveal="">
+            <img src="https://images.unsplash.com/photo-1546833999-b9f581a1996d?auto=format&amp;fit=crop&amp;w=1200&amp;q=80" alt="Hand-rolled truffle tagliatelle" loading="lazy">
+            <span class="dish__tag">Guest Favourite</span>
+            <div class="dish__body">
+              <h3>Truffle Tagliatelle</h3>
+              <p>Hand-rolled pasta, aged parmesan cream, shaved winter truffle.</p>
+              <span class="dish__price">$34</span>
+            </div>
+          </article>
+
+          <article class="dish dish--feature is-visible" data-reveal="" style="transition-delay: 140ms;">
+            <img src="https://images.unsplash.com/photo-1551024506-0bccd828d307?auto=format&amp;fit=crop&amp;w=1200&amp;q=80" alt="Dark chocolate fondant dessert" loading="lazy">
+            <span class="dish__tag">Sweet Finish</span>
+            <div class="dish__body">
+              <h3>Valrhona Fondant</h3>
+              <p>Molten dark chocolate, salted caramel, vanilla-bean gelato.</p>
+              <span class="dish__price">$16</span>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ CHEF ============ -->
+    <section class="section section--alt chef" id="chef">
+      <div class="container chef__grid">
+        <div class="chef__body">
+          <p class="eyebrow is-visible" data-reveal="" style="transition-delay: 0ms;">Behind the Pass</p>
+          <h2 class="section__title is-visible" data-reveal="" style="transition-delay: 70ms;">Chef <span class="text-gold">Elena Marceau</span></h2>
+          <p class="lead is-visible" data-reveal="" style="transition-delay: 140ms;">
+            Trained in Lyon and seasoned in Tokyo's back-street izakayas, Elena builds
+            menus the way a composer writes music — restraint first, then a single
+            unforgettable note.
+          </p>
+
+          <blockquote class="chef__quote is-visible" data-reveal="" style="transition-delay: 210ms;">
+            “Great food is not about adding more. It is about knowing exactly
+            what to leave out.”
+          </blockquote>
+
+          <ul class="chef__facts is-visible" data-reveal="" style="transition-delay: 280ms;">
+            <li><b>2</b><span>Michelin Stars</span></li>
+            <li><b>18</b><span>Kitchen Years</span></li>
+            <li><b>3</b><span>Continents</span></li>
+          </ul>
+
+          <a href="#reservation" class="btn btn--gold" data-reveal="">Dine with us tonight</a>
+        </div>
+
+        <div class="chef__media is-visible" data-reveal="" style="transition-delay: 70ms;">
+          <img src="https://images.unsplash.com/photo-1583394293214-28ded15ee548?auto=format&amp;fit=crop&amp;w=900&amp;q=80" alt="Chef Elena Marceau in the Savor kitchen" loading="lazy">
+          <img class="chef__media--float" src="https://images.unsplash.com/photo-1600565193348-f74bd3c7ccdf?auto=format&amp;fit=crop&amp;w=600&amp;q=80" alt="Chef plating a dish during service" loading="lazy">
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ GALLERY ============ -->
+    <section class="section gallery" id="gallery">
+      <div class="container">
+        <header class="section__head">
+          <p class="eyebrow is-visible" data-reveal="" style="transition-delay: 0ms;">Gallery</p>
+          <h2 class="section__title is-visible" data-reveal="" style="transition-delay: 70ms;">A look <span class="text-gold">inside Savor</span></h2>
+          <p class="section__sub is-visible" data-reveal="" style="transition-delay: 140ms;">Warm light, open kitchen, and plates worth photographing.</p>
+        </header>
+
+        <div class="gallery__grid is-visible" id="galleryGrid" data-reveal="" style="transition-delay: 70ms;">
+      <button class="gallery__item gallery__item--wide" type="button" data-index="0" aria-label="Open image: The main dining room">
+        <img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&amp;fit=crop&amp;w=1100&amp;q=80" alt="The main dining room" loading="lazy">
+        <span class="gallery__cap">The main dining room</span>
+      </button>
+      <button class="gallery__item" type="button" data-index="1" aria-label="Open image: Evening service">
+        <img src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&amp;fit=crop&amp;w=800&amp;q=80" alt="Evening service" loading="lazy">
+        <span class="gallery__cap">Evening service</span>
+      </button>
+      <button class="gallery__item gallery__item--tall" type="button" data-index="2" aria-label="Open image: Plating the tasting menu">
+        <img src="https://images.unsplash.com/photo-1551218808-94e220e084d2?auto=format&amp;fit=crop&amp;w=800&amp;q=80" alt="Plating the tasting menu" loading="lazy">
+        <span class="gallery__cap">Plating the tasting menu</span>
+      </button>
+      <button class="gallery__item" type="button" data-index="3" aria-label="Open image: Morning prep">
+        <img src="https://images.unsplash.com/photo-1470337458703-46ad1756a187?auto=format&amp;fit=crop&amp;w=800&amp;q=80" alt="Morning prep" loading="lazy">
+        <span class="gallery__cap">Morning prep</span>
+      </button>
+      <button class="gallery__item gallery__item--wide" type="button" data-index="4" aria-label="Open image: Private dining room">
+        <img src="https://images.unsplash.com/photo-1424847651672-bf20a4b0982b?auto=format&amp;fit=crop&amp;w=1100&amp;q=80" alt="Private dining room" loading="lazy">
+        <span class="gallery__cap">Private dining room</span>
+      </button>
+      <button class="gallery__item" type="button" data-index="5" aria-label="Open image: The bar">
+        <img src="https://images.unsplash.com/photo-1559339352-11d035aa65de?auto=format&amp;fit=crop&amp;w=800&amp;q=80" alt="The bar" loading="lazy">
+        <span class="gallery__cap">The bar</span>
+      </button>
+      <button class="gallery__item" type="button" data-index="6" aria-label="Open image: Sweet finishes">
+        <img src="https://images.unsplash.com/photo-1551024506-0bccd828d307?auto=format&amp;fit=crop&amp;w=800&amp;q=80" alt="Sweet finishes" loading="lazy">
+        <span class="gallery__cap">Sweet finishes</span>
+      </button>
+      <button class="gallery__item" type="button" data-index="7" aria-label="Open image: From the grill">
+        <img src="https://images.unsplash.com/photo-1555939594-58d7cb561ad1?auto=format&amp;fit=crop&amp;w=800&amp;q=80" alt="From the grill" loading="lazy">
+        <span class="gallery__cap">From the grill</span>
+      </button></div>
+      </div>
+    </section>
+
+    <!-- ============ TESTIMONIALS ============ -->
+    <section class="section section--alt testimonials" id="testimonials">
+      <div class="container">
+        <header class="section__head">
+          <p class="eyebrow is-visible" data-reveal="" style="transition-delay: 0ms;">Guest Love</p>
+          <h2 class="section__title is-visible" data-reveal="" style="transition-delay: 70ms;">Words from <span class="text-gold">our table</span></h2>
+        </header>
+
+        <div class="slider is-visible" id="slider" data-reveal="" tabindex="0" style="transition-delay: 70ms;">
+          <div class="slider__viewport">
+            <div class="slider__track" id="sliderTrack" style="transform: translateX(0%);">
+      <figure class="slide">
+        <div class="slide__stars" aria-label="5 out of 5 stars">★★★★★</div>
+        <blockquote class="slide__quote">The ribeye alone was worth the trip. Service felt invisible yet always present - that is true hospitality.</blockquote>
+        <figcaption class="slide__author">
+          <span class="slide__avatar"><img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&amp;fit=crop&amp;w=160&amp;q=80" alt="" loading="lazy"></span>
+          <span class="slide__meta"><b>Amara Whitfield</b><span>Food Critic, The Riverside Review</span></span>
+        </figcaption>
+      </figure>
+      <figure class="slide">
+        <div class="slide__stars" aria-label="5 out of 5 stars">★★★★★</div>
+        <blockquote class="slide__quote">We booked for an anniversary and left planning the next visit. Every plate looked like a small piece of art.</blockquote>
+        <figcaption class="slide__author">
+          <span class="slide__avatar"><img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&amp;fit=crop&amp;w=160&amp;q=80" alt="" loading="lazy"></span>
+          <span class="slide__meta"><b>Daniel Okafor</b><span>Regular guest</span></span>
+        </figcaption>
+      </figure>
+      <figure class="slide">
+        <div class="slide__stars" aria-label="5 out of 5 stars">★★★★★</div>
+        <blockquote class="slide__quote">A rare place that balances technique with genuine warmth. The tasting menu is beautifully paced.</blockquote>
+        <figcaption class="slide__author">
+          <span class="slide__avatar"><img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&amp;fit=crop&amp;w=160&amp;q=80" alt="" loading="lazy"></span>
+          <span class="slide__meta"><b>Sofia Berglund</b><span>Travel writer</span></span>
+        </figcaption>
+      </figure>
+      <figure class="slide">
+        <div class="slide__stars" aria-label="5 out of 5 stars">★★★★★</div>
+        <blockquote class="slide__quote">Hands down the best pasta I have eaten outside of Italy. The truffle tagliatelle is unforgettable.</blockquote>
+        <figcaption class="slide__author">
+          <span class="slide__avatar"><img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&amp;fit=crop&amp;w=160&amp;q=80" alt="" loading="lazy"></span>
+          <span class="slide__meta"><b>Marco Ferretti</b><span>Chef and restaurateur</span></span>
+        </figcaption>
+      </figure></div>
+          </div>
+          <div class="slider__controls">
+            <button class="slider__btn" id="prevSlide" aria-label="Previous testimonial">
+              <svg viewBox="0 0 24 24" width="20" height="20"><path d="M14.6 5 8 12l6.6 7 1.4-1.4L10.8 12 16 6.4z" fill="currentColor"></path></svg>
+            </button>
+            <div class="slider__dots" id="sliderDots">
+        <button class="slider__dot is-active" type="button" data-index="0" aria-label="Go to testimonial 1"></button>
+        <button class="slider__dot" type="button" data-index="1" aria-label="Go to testimonial 2"></button>
+        <button class="slider__dot" type="button" data-index="2" aria-label="Go to testimonial 3"></button>
+        <button class="slider__dot" type="button" data-index="3" aria-label="Go to testimonial 4"></button></div>
+            <button class="slider__btn" id="nextSlide" aria-label="Next testimonial">
+              <svg viewBox="0 0 24 24" width="20" height="20"><path d="M9.4 5 16 12l-6.6 7L8 17.6 13.2 12 8 6.4z" fill="currentColor"></path></svg>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ RESERVATION ============ -->
+    <section class="section reservation" id="reservation">
+      <div class="container reservation__grid">
+        <div class="reservation__intro">
+          <p class="eyebrow is-visible" data-reveal="" style="transition-delay: 0ms;">Reservations</p>
+          <h2 class="section__title is-visible" data-reveal="" style="transition-delay: 70ms;">Reserve your <span class="text-gold">table</span></h2>
+          <p class="lead is-visible" data-reveal="" style="transition-delay: 140ms;">
+            Tell us when you are coming and we will have the table waiting. For parties
+            larger than eight, please call us directly.
+          </p>
+
+          <ul class="info-list is-visible" data-reveal="" style="transition-delay: 210ms;">
+            <li>
+              <span class="info-list__icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+                  <circle cx="12" cy="12" r="9"></circle>
+                  <path d="M12 7.2V12l3.1 1.9"></path>
+                </svg>
+              </span>
+              <div>
+                <b>Opening Hours</b>
+                <span>Tue – Sun · 5:00 PM – 11:30 PM</span>
+                <span>Monday · Closed</span>
+              </div>
+            </li>
+            <li>
+              <span class="info-list__icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M21 16.9v2.5a1.7 1.7 0 0 1-1.9 1.7 16.6 16.6 0 0 1-7.2-2.6 16.3 16.3 0 0 1-5-5A16.6 16.6 0 0 1 4.3 6.3 1.7 1.7 0 0 1 6 4.4h2.5a1.7 1.7 0 0 1 1.7 1.5c.1.9.3 1.8.6 2.6a1.7 1.7 0 0 1-.4 1.8l-1.1 1.1a13.3 13.3 0 0 0 5 5l1.1-1.1a1.7 1.7 0 0 1 1.8-.4c.8.3 1.7.5 2.6.6A1.7 1.7 0 0 1 21 16.9z"></path>
+                </svg>
+              </span>
+              <div>
+                <b>Call Us</b>
+                <a href="tel:+15551234567">+1 (555) 123-4567</a>
+              </div>
+            </li>
+            <li>
+              <span class="info-list__icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+                  <rect x="3" y="5.2" width="18" height="13.6" rx="2.2"></rect>
+                  <path d="m3.9 6.7 8.1 5.8 8.1-5.8"></path>
+                </svg>
+              </span>
+              <div>
+                <b>Email</b>
+                <a href="mailto:hello@savor-restaurant.com">hello@savor-restaurant.com</a>
+              </div>
+            </li>
+            <li>
+              <span class="info-list__icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M20 10.4c0 5.6-8 11.1-8 11.1s-8-5.5-8-11.1a8 8 0 1 1 16 0z"></path>
+                  <circle cx="12" cy="10.2" r="2.9"></circle>
+                </svg>
+              </span>
+              <div>
+                <b>Find Us</b>
+                <span>128 Marigold Street, Riverside District</span>
+              </div>
+            </li>
+          </ul>
+        </div>
+
+        <form class="form is-visible" id="reservationForm" novalidate="" data-reveal="" style="transition-delay: 70ms;">
+          <h3 class="form__title">Book a Table</h3>
+
+          <div class="form__row">
+            <label class="field">
+              <span>Full name</span>
+              <input type="text" name="name" id="resName" placeholder="Jane Doe" autocomplete="name" required="" aria-invalid="false">
+              <em class="field__error" data-error-for="name"></em>
+            </label>
+            <label class="field">
+              <span>Phone</span>
+              <input type="tel" name="phone" id="resPhone" placeholder="+1 555 000 0000" autocomplete="tel" required="" aria-invalid="false">
+              <em class="field__error" data-error-for="phone"></em>
+            </label>
+          </div>
+
+          <label class="field">
+            <span>Email address</span>
+            <input type="email" name="email" id="resEmail" placeholder="jane@example.com" autocomplete="email" required="" aria-invalid="false">
+            <em class="field__error" data-error-for="email"></em>
+          </label>
+
+          <div class="form__row form__row--3">
+            <label class="field">
+              <span>Date</span>
+              <input type="date" name="date" id="resDate" required="" min="2026-10-04" aria-invalid="false">
+              <em class="field__error" data-error-for="date"></em>
+            </label>
+            <label class="field">
+              <span>Time</span>
+              <input type="time" name="time" id="resTime" required="" min="17:00" max="23:30" aria-invalid="false">
+              <em class="field__error" data-error-for="time"></em>
+            </label>
+            <label class="field">
+              <span>Guests</span>
+              <select name="guests" id="resGuests" required="" aria-invalid="false">
+                <option value="">Select</option>
+                <option>1 guest</option>
+                <option selected="">2 guests</option>
+                <option>3 guests</option>
+                <option>4 guests</option>
+                <option>5 guests</option>
+                <option>6 guests</option>
+                <option>7 guests</option>
+                <option>8 guests</option>
+              </select>
+              <em class="field__error" data-error-for="guests"></em>
+            </label>
+          </div>
+
+          <label class="field">
+            <span>Special requests <i>(optional)</i></span>
+            <textarea name="notes" id="resNotes" rows="3" placeholder="Allergies, celebration, window table..."></textarea>
+          </label>
+
+          <button type="submit" class="btn btn--gold btn--block btn--lg" id="resSubmit">
+            Confirm Reservation
+          </button>
+          <p class="form__hint">This is a front-end demo — no data is sent anywhere.</p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="footer">
+    <div class="container footer__grid">
+      <div class="footer__brand">
+        <a href="#home" class="brand brand--footer">
+          <span class="brand__mark">S</span>
+          <span class="brand__text"><strong>Savor</strong><small>Fine Dining</small></span>
+        </a>
+        <p>
+          Seasonal plates, honest sourcing and a room built for lingering. Join us for
+          dinner Tuesday through Sunday.
+        </p>
+        <div class="socials">
+          <a href="#" aria-label="Instagram" class="social">IG</a>
+          <a href="#" aria-label="Facebook" class="social">FB</a>
+          <a href="#" aria-label="X" class="social">X</a>
+          <a href="#" aria-label="TripAdvisor" class="social">TA</a>
+        </div>
+      </div>
+
+      <nav class="footer__col" aria-label="Explore">
+        <h4>Explore</h4>
+        <ul>
+          <li><a href="#about">Our Story</a></li>
+          <li><a href="#menu">Menu</a></li>
+          <li><a href="#chef">The Chef</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+        </ul>
+      </nav>
+
+      <div class="footer__col">
+        <h4>Visit</h4>
+        <ul>
+          <li>128 Marigold Street</li>
+          <li>Riverside District</li>
+          <li>Tue – Sun · 5 – 11:30 PM</li>
+          <li>Monday · Closed</li>
+        </ul>
+      </div>
+
+      <div class="footer__col">
+        <h4>Newsletter</h4>
+        <p>Seasonal menus and private events, once a month.</p>
+        <form class="newsletter" id="newsletterForm" novalidate="">
+          <input type="email" id="newsletterEmail" placeholder="Your email" aria-label="Email address" required="">
+          <button type="submit" class="btn btn--gold">Join</button>
+        </form>
+      </div>
+    </div>
+
+    <div class="container footer__bottom">
+      <p>© <span id="year">2026</span> Savor Restaurant. All rights reserved.</p>
+      <p class="footer__legal">
+        <a href="#">Privacy</a> · <a href="#">Terms</a> · <a href="#">Careers</a>
+      </p>
+    </div>
+  </footer>
+
+  <!-- ============ LIGHTBOX ============ -->
+  <div class="lightbox" id="lightbox" hidden="">
+    <button class="lightbox__close" id="lightboxClose" aria-label="Close gallery viewer">×</button>
+    <button class="lightbox__nav lightbox__nav--prev" id="lightboxPrev" aria-label="Previous image">‹</button>
+    <figure class="lightbox__figure">
+      <img id="lightboxImg" src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&amp;fit=crop&amp;w=1100&amp;q=80" alt="The main dining room">
+      <figcaption id="lightboxCaption">The main dining room</figcaption>
+    </figure>
+    <button class="lightbox__nav lightbox__nav--next" id="lightboxNext" aria-label="Next image">›</button>
+  </div>
+
+  <button class="to-top is-shown" id="toTop" aria-label="Back to top">
+    <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path d="M12 5l7 7-1.4 1.4L13 8.8V19h-2V8.8l-4.6 4.6L5 12z" fill="currentColor"></path></svg>
+  </button>
+
+  <div class="toast toast--ok" id="toast" role="status" aria-live="polite" hidden="">Thank you, Jane Doe — your table is requested for 4 guests on 2030-05-20 at 19:30.</div>
+
+  <script src="js/data.js"></script>
+  <script src="js/main.js"></script>
+
+<script>
+(function () {
+  var out = [];
+  function log(k, v) { out.push(k + ' = ' + v); }
+  function display(id) { return getComputedStyle(document.getElementById(id)).display; }
+
+  setTimeout(function () {
+    /* --- 1. overlay must not block the page on load --- */
+    log('lightbox_display_on_load', display('lightbox'));
+    log('toast_display_on_load', display('toast'));
+    log('nav_overlay_display_on_load', display('navOverlay'));
+
+    /* --- 2. contact-form icons --- */
+    log('info_icons_svg_count', document.querySelectorAll('.info-list__icon svg').length);
+
+    /* --- 3. gallery lightbox opens then closes --- */
+    document.querySelector('.gallery__item').click();
+    log('lightbox_display_after_open', display('lightbox'));
+    document.getElementById('lightboxClose').click();
+    log('lightbox_display_after_close', display('lightbox'));
+
+    /* --- 4. empty form submit shows inline errors --- */
+    var form = document.getElementById('reservationForm');
+    form.dispatchEvent(new Event('submit', { bubbles: true, cancelable: true }));
+    log('errors_on_empty_submit', document.querySelectorAll('.field.has-error').length);
+    log('name_error_text', (document.querySelector('[data-error-for="name"]') || {}).textContent);
+
+    /* --- 5. invalid email is rejected --- */
+    document.getElementById('resName').value = 'Jane Doe';
+    document.getElementById('resPhone').value = '+1 555 111 2222';
+    document.getElementById('resEmail').value = 'not-an-email';
+    document.getElementById('resDate').value = '2030-05-20';
+    form.dispatchEvent(new Event('submit', { bubbles: true, cancelable: true }));
+    log('bad_email_error', (document.querySelector('[data-error-for="email"]') || {}).textContent);
+
+    /* --- 6. valid submit succeeds --- */
+    document.getElementById('resEmail').value = 'jane@example.com';
+    document.getElementById('resTime').value = '19:30';
+    document.getElementById('resGuests').value = '4 guests';
+    form.dispatchEvent(new Event('submit', { bubbles: true, cancelable: true }));
+    log('errors_after_valid_submit', document.querySelectorAll('.field.has-error').length);
+
+    setTimeout(function () {
+      var t = document.getElementById('toast');
+      log('toast_shown_after_submit', t.classList.contains('is-shown'));
+      log('toast_is_success', t.classList.contains('toast--ok'));
+      log('toast_message', (t.textContent || '').trim());
+      log('name_field_value_after_submit', '[' + document.getElementById('resName').value + ']');
+      log('email_field_value_after_submit', '[' + document.getElementById('resEmail').value + ']');
+      log('time_field_value_after_submit', '[' + document.getElementById('resTime').value + ']');
+      log('date_field_value_after_submit', '[' + document.getElementById('resDate').value + ']');
+      log('guests_field_value_after_submit', '[' + document.getElementById('resGuests').value + ']');
+      log('submit_button_enabled', !document.getElementById('resSubmit').disabled);
+      log('submit_button_label', document.getElementById('resSubmit').textContent.trim());
+
+      /* --- 7. menu tab filter works --- */
+      var pastaTab = document.querySelector('.tab[data-cat="pasta"]');
+      pastaTab.click();
+      setTimeout(function () {
+        log('cards_after_pasta_filter', document.querySelectorAll('.menu-card').length);
+        log('active_tab', (document.querySelector('.tab.is-active') || {}).textContent);
+
+        var pre = document.createElement('pre');
+        pre.id = '__probe';
+        pre.textContent = '\n' + out.join('\n') + '\n';
+        document.body.appendChild(pre);
+      }, 400);
+    }, 1400);
+  }, 1600);
+})();
+</script>
+
+
+<pre id="__probe">
+lightbox_display_on_load = none
+toast_display_on_load = none
+nav_overlay_display_on_load = none
+info_icons_svg_count = 4
+lightbox_display_after_open = grid
+lightbox_display_after_close = none
+errors_on_empty_submit = 4
+name_error_text = Please enter your name.
+bad_email_error = Please enter a valid email address.
+errors_after_valid_submit = 0
+toast_shown_after_submit = true
+toast_is_success = true
+toast_message = Thank you, Jane Doe — your table is requested for 4 guests on 2030-05-20 at 19:30.
+name_field_value_after_submit = []
+email_field_value_after_submit = []
+time_field_value_after_submit = [19:00]
+date_field_value_after_submit = []
+guests_field_value_after_submit = [2 guests]
+submit_button_enabled = true
+submit_button_label = Confirm Reservation
+cards_after_pasta_filter = 3
+active_tab = Pasta &amp; Rice
+</pre></body></html>

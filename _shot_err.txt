@@ -1,0 +1,5 @@
+[23436:19256:1004/060823.502:ERROR:chrome\updater\ipc\update_service_dialer_win.cc:75] Failed to open named pipe server process 9656: Access is denied. (0x5)
+[23436:2292:1004/060825.822:ERROR:chrome\updater\ipc\update_service_dialer_win.cc:75] Failed to open named pipe server process 2220: Access is denied. (0x5)
+[23436:2292:1004/060826.129:ERROR:components\headless\command_handler\headless_command_handler.cc:266] Failed to write file shot_hero.png: Access is denied. (0x5)
+[23436:19256:1004/060826.277:ERROR:chrome\updater\ipc\update_service_dialer_win.cc:75] Failed to open named pipe server process 9684: Access is denied. (0x5)
+[23436:2292:1004/060826.409:ERROR:chrome\updater\ipc\update_service_dialer_win.cc:75] Failed to open named pipe server process 25980: Access is denied. (0x5)

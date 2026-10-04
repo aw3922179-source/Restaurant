@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#0b0b0f" />
+  <title>Savor — Modern Fine Dining Experience</title>
+  <meta name="description" content="Savor is a modern fine-dining restaurant serving seasonal, chef-crafted plates. Explore our menu, story, gallery and reserve your table online." />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%8D%BD%EF%B8%8F%3C/text%3E%3C/svg%3E" />
+</head>
+<body>
+
+  <!-- ============ PRELOADER ============ -->
+  <div class="preloader" id="preloader" aria-hidden="true">
+    <div class="preloader__inner">
+      <span class="preloader__logo">Savor</span>
+      <span class="preloader__bar"><i></i></span>
+    </div>
+  </div>
+
+  <!-- ============ HEADER / NAV ============ -->
+  <header class="header" id="header">
+    <div class="container header__inner">
+      <a href="#home" class="brand" aria-label="Savor home">
+        <span class="brand__mark">S</span>
+        <span class="brand__text">
+          <strong>Savor</strong>
+          <small>Fine Dining</small>
+        </span>
+      </a>
+
+      <nav class="nav" id="nav" aria-label="Primary">
+        <ul class="nav__list">
+          <li><a class="nav__link is-active" href="#home">Home</a></li>
+          <li><a class="nav__link" href="#about">About</a></li>
+          <li><a class="nav__link" href="#menu">Menu</a></li>
+          <li><a class="nav__link" href="#chef">Chef</a></li>
+          <li><a class="nav__link" href="#gallery">Gallery</a></li>
+          <li><a class="nav__link" href="#reservation">Contact</a></li>
+        </ul>
+        <a href="#reservation" class="btn btn--gold nav__cta">Book a Table</a>
+      </nav>
+
+      <button class="burger" id="burger" aria-label="Open menu" aria-expanded="false" aria-controls="nav">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+  <div class="nav-overlay" id="navOverlay" hidden></div>
+
+  <main>
+    <!-- ============ HERO ============ -->
+    <section class="hero" id="home">
+      <div class="hero__bg" aria-hidden="true">
+        <img
+          src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=2000&q=80"
+          alt="" fetchpriority="high" />
+        <span class="hero__scrim"></span>
+      </div>
+
+      <div class="container hero__inner">
+        <p class="eyebrow" data-reveal>Est. 2009 &middot; Seasonal Kitchen</p>
+        <h1 class="hero__title" data-reveal>
+          Where every plate tells a
+          <span class="text-gold">delicious story</span>
+        </h1>
+        <p class="hero__lead" data-reveal>
+          A modern fine-dining destination built on seasonal produce, quiet craft
+          and an obsession with flavour. Join us for a table you will remember.
+        </p>
+
+        <div class="hero__actions" data-reveal>
+          <a href="#reservation" class="btn btn--gold btn--lg">Reserve a Table</a>
+          <a href="#menu" class="btn btn--ghost btn--lg">Explore Menu</a>
+        </div>
+
+        <ul class="hero__stats" data-reveal>
+          <li>
+            <span class="stat"><b data-count="16">0</b><i>+</i></span>
+            <small>Years of Craft</small>
+          </li>
+          <li>
+            <span class="stat"><b data-count="48">0</b><i>+</i></span>
+            <small>Signature Dishes</small>
+          </li>
+          <li>
+            <span class="stat"><b data-count="2">0</b><i>&#9733;</i></span>
+            <small>Michelin Stars</small>
+          </li>
+          <li>
+            <span class="stat"><b data-count="35">0</b><i>k</i></span>
+            <small>Happy Guests</small>
+          </li>
+        </ul>
+      </div>
+
+      <a href="#about" class="hero__scroll" aria-label="Scroll to content">
+        <span></span>
+      </a>
+    </section>
+
+    <!-- ============ ABOUT ============ -->
+    <section class="section about" id="about">
+      <div class="container about__grid">
+        <div class="about__media" data-reveal>
+          <img class="about__img about__img--main"
+            src="https://images.unsplash.com/photo-1552566626-52f8b828add9?auto=format&fit=crop&w=900&q=80"
+            alt="Guests dining inside the Savor restaurant" loading="lazy" />
+          <img class="about__img about__img--sub"
+            src="https://images.unsplash.com/photo-1551218808-94e220e084d2?auto=format&fit=crop&w=700&q=80"
+            alt="Close-up of a chef plating a fine-dining dish" loading="lazy" />
+          <div class="about__badge">
+            <b>16</b>
+            <span>years of<br />hospitality</span>
+          </div>
+        </div>
+
+        <div class="about__body">
+          <p class="eyebrow" data-reveal>Our Story</p>
+          <h2 class="section__title" data-reveal>
+            A kitchen guided by <span class="text-gold">season &amp; soul</span>
+          </h2>
+          <p class="lead" data-reveal>
+            Savor began as a twelve-seat counter with one idea: cook honestly with
+            what the land gives us. Today we still source from the same small farms,
+            still hand-roll our pastas, and still greet most guests by name.
+          </p>
+          <p data-reveal>
+            Our menu changes with the harvest. Plates are built around a single hero
+            ingredient, then layered with technique gathered across three continents.
+            The result is food that feels both familiar and entirely new.
+          </p>
+
+          <ul class="about__list" data-reveal>
+            <li><span class="tick">&#10003;</span> Farm-to-table sourcing, daily deliveries</li>
+            <li><span class="tick">&#10003;</span> Seasonal menu rewritten every 10 weeks</li>
+            <li><span class="tick">&#10003;</span> Vegetarian, vegan &amp; gluten-free options</li>
+            <li><span class="tick">&#10003;</span> Private dining &amp; chef's table experiences</li>
+          </ul>
+
+          <div class="about__actions" data-reveal>
+            <a href="#chef" class="btn btn--gold">Meet the Chef</a>
+            <a href="#menu" class="btn btn--link">See the full menu &rarr;</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ MENU ============ -->
+    <section class="section section--alt menu" id="menu">
+      <div class="container">
+        <header class="section__head">
+          <p class="eyebrow" data-reveal>The Menu</p>
+          <h2 class="section__title" data-reveal>
+            Crafted to be <span class="text-gold">shared &amp; savoured</span>
+          </h2>
+          <p class="section__sub" data-reveal>
+            A tasting of the plates our guests keep coming back for. Filter by course
+            to build your perfect evening.
+          </p>
+        </header>
+
+        <div class="menu__tabs" id="menuTabs" role="tablist" aria-label="Menu categories" data-reveal></div>
+
+        <div class="menu__grid" id="menuGrid" aria-live="polite"></div>
+
+        <p class="menu__note" data-reveal>
+          Allergen information available on request &middot; Prices include taxes
+        </p>
+      </div>
+    </section>
+
+    <!-- ============ SIGNATURE ============ -->
+    <section class="section signature" id="signature">
+      <div class="container">
+        <header class="section__head section__head--row">
+          <div>
+            <p class="eyebrow" data-reveal>Chef's Choice</p>
+            <h2 class="section__title" data-reveal>Tonight's <span class="text-gold">signatures</span></h2>
+          </div>
+          <a href="#menu" class="btn btn--ghost" data-reveal>View all dishes</a>
+        </header>
+
+        <div class="signature__grid">
+          <article class="dish dish--feature" data-reveal>
+            <img src="https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=1200&q=80"
+              alt="Dry-aged ribeye with bone marrow butter" loading="lazy" />
+            <span class="dish__tag">Signature</span>
+            <div class="dish__body">
+              <h3>48-Hour Aged Ribeye</h3>
+              <p>Charcoal-seared, bone-marrow butter, smoked sea salt and a red-wine reduction.</p>
+              <span class="dish__price">$46</span>
+            </div>
+          </article>
+
+          <article class="dish dish--feature" data-reveal>
+            <img src="https://images.unsplash.com/photo-1546833999-b9f581a1996d?auto=format&fit=crop&w=1200&q=80"
+              alt="Hand-rolled truffle tagliatelle" loading="lazy" />
+            <span class="dish__tag">Guest Favourite</span>
+            <div class="dish__body">
+              <h3>Truffle Tagliatelle</h3>
+              <p>Hand-rolled pasta, aged parmesan cream, shaved winter truffle.</p>
+              <span class="dish__price">$34</span>
+            </div>
+          </article>
+
+          <article class="dish dish--feature" data-reveal>
+            <img src="https://images.unsplash.com/photo-1551024506-0bccd828d307?auto=format&fit=crop&w=1200&q=80"
+              alt="Dark chocolate fondant dessert" loading="lazy" />
+            <span class="dish__tag">Sweet Finish</span>
+            <div class="dish__body">
+              <h3>Valrhona Fondant</h3>
+              <p>Molten dark chocolate, salted caramel, vanilla-bean gelato.</p>
+              <span class="dish__price">$16</span>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ CHEF ============ -->
+    <section class="section section--alt chef" id="chef">
+      <div class="container chef__grid">
+        <div class="chef__body">
+          <p class="eyebrow" data-reveal>Behind the Pass</p>
+          <h2 class="section__title" data-reveal>Chef <span class="text-gold">Elena Marceau</span></h2>
+          <p class="lead" data-reveal>
+            Trained in Lyon and seasoned in Tokyo's back-street izakayas, Elena builds
+            menus the way a composer writes music — restraint first, then a single
+            unforgettable note.
+          </p>
+
+          <blockquote class="chef__quote" data-reveal>
+            &ldquo;Great food is not about adding more. It is about knowing exactly
+            what to leave out.&rdquo;
+          </blockquote>
+
+          <ul class="chef__facts" data-reveal>
+            <li><b>2</b><span>Michelin Stars</span></li>
+            <li><b>18</b><span>Kitchen Years</span></li>
+            <li><b>3</b><span>Continents</span></li>
+          </ul>
+
+          <a href="#reservation" class="btn btn--gold" data-reveal>Dine with us tonight</a>
+        </div>
+
+        <div class="chef__media" data-reveal>
+          <img src="https://images.unsplash.com/photo-1583394293214-28ded15ee548?auto=format&fit=crop&w=900&q=80"
+            alt="Chef Elena Marceau in the Savor kitchen" loading="lazy" />
+          <img class="chef__media--float"
+            src="https://images.unsplash.com/photo-1600565193348-f74bd3c7ccdf?auto=format&fit=crop&w=600&q=80"
+            alt="Chef plating a dish during service" loading="lazy" />
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ GALLERY ============ -->
+    <section class="section gallery" id="gallery">
+      <div class="container">
+        <header class="section__head">
+          <p class="eyebrow" data-reveal>Gallery</p>
+          <h2 class="section__title" data-reveal>A look <span class="text-gold">inside Savor</span></h2>
+          <p class="section__sub" data-reveal>Warm light, open kitchen, and plates worth photographing.</p>
+        </header>
+
+        <div class="gallery__grid" id="galleryGrid" data-reveal></div>
+      </div>
+    </section>
+
+    <!-- ============ TESTIMONIALS ============ -->
+    <section class="section section--alt testimonials" id="testimonials">
+      <div class="container">
+        <header class="section__head">
+          <p class="eyebrow" data-reveal>Guest Love</p>
+          <h2 class="section__title" data-reveal>Words from <span class="text-gold">our table</span></h2>
+        </header>
+
+        <div class="slider" id="slider" data-reveal>
+          <div class="slider__viewport">
+            <div class="slider__track" id="sliderTrack"></div>
+          </div>
+          <div class="slider__controls">
+            <button class="slider__btn" id="prevSlide" aria-label="Previous testimonial">
+              <svg viewBox="0 0 24 24" width="20" height="20"><path d="M14.6 5 8 12l6.6 7 1.4-1.4L10.8 12 16 6.4z" fill="currentColor"/></svg>
+            </button>
+            <div class="slider__dots" id="sliderDots"></div>
+            <button class="slider__btn" id="nextSlide" aria-label="Next testimonial">
+              <svg viewBox="0 0 24 24" width="20" height="20"><path d="M9.4 5 16 12l-6.6 7L8 17.6 13.2 12 8 6.4z" fill="currentColor"/></svg>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ RESERVATION ============ -->
+    <section class="section reservation" id="reservation">
+      <div class="container reservation__grid">
+        <div class="reservation__intro">
+          <p class="eyebrow" data-reveal>Reservations</p>
+          <h2 class="section__title" data-reveal>Reserve your <span class="text-gold">table</span></h2>
+          <p class="lead" data-reveal>
+            Tell us when you are coming and we will have the table waiting. For parties
+            larger than eight, please call us directly.
+          </p>
+
+          <ul class="info-list" data-reveal>
+            <li>
+              <span class="info-list__icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+                  <circle cx="12" cy="12" r="9" />
+                  <path d="M12 7.2V12l3.1 1.9" />
+                </svg>
+              </span>
+              <div>
+                <b>Opening Hours</b>
+                <span>Tue &ndash; Sun &middot; 5:00 PM &ndash; 11:30 PM</span>
+                <span>Monday &middot; Closed</span>
+              </div>
+            </li>
+            <li>
+              <span class="info-list__icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M21 16.9v2.5a1.7 1.7 0 0 1-1.9 1.7 16.6 16.6 0 0 1-7.2-2.6 16.3 16.3 0 0 1-5-5A16.6 16.6 0 0 1 4.3 6.3 1.7 1.7 0 0 1 6 4.4h2.5a1.7 1.7 0 0 1 1.7 1.5c.1.9.3 1.8.6 2.6a1.7 1.7 0 0 1-.4 1.8l-1.1 1.1a13.3 13.3 0 0 0 5 5l1.1-1.1a1.7 1.7 0 0 1 1.8-.4c.8.3 1.7.5 2.6.6A1.7 1.7 0 0 1 21 16.9z" />
+                </svg>
+              </span>
+              <div>
+                <b>Call Us</b>
+                <a href="tel:+15551234567">+1 (555) 123-4567</a>
+              </div>
+            </li>
+            <li>
+              <span class="info-list__icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+                  <rect x="3" y="5.2" width="18" height="13.6" rx="2.2" />
+                  <path d="m3.9 6.7 8.1 5.8 8.1-5.8" />
+                </svg>
+              </span>
+              <div>
+                <b>Email</b>
+                <a href="mailto:hello@savor-restaurant.com">hello@savor-restaurant.com</a>
+              </div>
+            </li>
+            <li>
+              <span class="info-list__icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M20 10.4c0 5.6-8 11.1-8 11.1s-8-5.5-8-11.1a8 8 0 1 1 16 0z" />
+                  <circle cx="12" cy="10.2" r="2.9" />
+                </svg>
+              </span>
+              <div>
+                <b>Find Us</b>
+                <span>128 Marigold Street, Riverside District</span>
+              </div>
+            </li>
+          </ul>
+        </div>
+
+        <form class="form" id="reservationForm" novalidate data-reveal>
+          <h3 class="form__title">Book a Table</h3>
+
+          <div class="form__row">
+            <label class="field">
+              <span>Full name</span>
+              <input type="text" name="name" id="resName" placeholder="Jane Doe" autocomplete="name" required />
+              <em class="field__error" data-error-for="name"></em>
+            </label>
+            <label class="field">
+              <span>Phone</span>
+              <input type="tel" name="phone" id="resPhone" placeholder="+1 555 000 0000" autocomplete="tel" required />
+              <em class="field__error" data-error-for="phone"></em>
+            </label>
+          </div>
+
+          <label class="field">
+            <span>Email address</span>
+            <input type="email" name="email" id="resEmail" placeholder="jane@example.com" autocomplete="email" required />
+            <em class="field__error" data-error-for="email"></em>
+          </label>
+
+          <div class="form__row form__row--3">
+            <label class="field">
+              <span>Date</span>
+              <input type="date" name="date" id="resDate" required />
+              <em class="field__error" data-error-for="date"></em>
+            </label>
+            <label class="field">
+              <span>Time</span>
+              <input type="time" name="time" id="resTime" required />
+              <em class="field__error" data-error-for="time"></em>
+            </label>
+            <label class="field">
+              <span>Guests</span>
+              <select name="guests" id="resGuests" required>
+                <option value="">Select</option>
+                <option>1 guest</option>
+                <option selected>2 guests</option>
+                <option>3 guests</option>
+                <option>4 guests</option>
+                <option>5 guests</option>
+                <option>6 guests</option>
+                <option>7 guests</option>
+                <option>8 guests</option>
+              </select>
+              <em class="field__error" data-error-for="guests"></em>
+            </label>
+          </div>
+
+          <label class="field">
+            <span>Special requests <i>(optional)</i></span>
+            <textarea name="notes" id="resNotes" rows="3" placeholder="Allergies, celebration, window table..."></textarea>
+          </label>
+
+          <button type="submit" class="btn btn--gold btn--block btn--lg" id="resSubmit">
+            Confirm Reservation
+          </button>
+          <p class="form__hint">This is a front-end demo &mdash; no data is sent anywhere.</p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="footer">
+    <div class="container footer__grid">
+      <div class="footer__brand">
+        <a href="#home" class="brand brand--footer">
+          <span class="brand__mark">S</span>
+          <span class="brand__text"><strong>Savor</strong><small>Fine Dining</small></span>
+        </a>
+        <p>
+          Seasonal plates, honest sourcing and a room built for lingering. Join us for
+          dinner Tuesday through Sunday.
+        </p>
+        <div class="socials">
+          <a href="#" aria-label="Instagram" class="social">IG</a>
+          <a href="#" aria-label="Facebook" class="social">FB</a>
+          <a href="#" aria-label="X" class="social">X</a>
+          <a href="#" aria-label="TripAdvisor" class="social">TA</a>
+        </div>
+      </div>
+
+      <nav class="footer__col" aria-label="Explore">
+        <h4>Explore</h4>
+        <ul>
+          <li><a href="#about">Our Story</a></li>
+          <li><a href="#menu">Menu</a></li>
+          <li><a href="#chef">The Chef</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+        </ul>
+      </nav>
+
+      <div class="footer__col">
+        <h4>Visit</h4>
+        <ul>
+          <li>128 Marigold Street</li>
+          <li>Riverside District</li>
+          <li>Tue &ndash; Sun &middot; 5 &ndash; 11:30 PM</li>
+          <li>Monday &middot; Closed</li>
+        </ul>
+      </div>
+
+      <div class="footer__col">
+        <h4>Newsletter</h4>
+        <p>Seasonal menus and private events, once a month.</p>
+        <form class="newsletter" id="newsletterForm" novalidate>
+          <input type="email" id="newsletterEmail" placeholder="Your email" aria-label="Email address" required />
+          <button type="submit" class="btn btn--gold">Join</button>
+        </form>
+      </div>
+    </div>
+
+    <div class="container footer__bottom">
+      <p>&copy; <span id="year"></span> Savor Restaurant. All rights reserved.</p>
+      <p class="footer__legal">
+        <a href="#">Privacy</a> &middot; <a href="#">Terms</a> &middot; <a href="#">Careers</a>
+      </p>
+    </div>
+  </footer>
+
+  <!-- ============ LIGHTBOX ============ -->
+  <div class="lightbox" id="lightbox" hidden>
+    <button class="lightbox__close" id="lightboxClose" aria-label="Close gallery viewer">&times;</button>
+    <button class="lightbox__nav lightbox__nav--prev" id="lightboxPrev" aria-label="Previous image">&#8249;</button>
+    <figure class="lightbox__figure">
+      <img id="lightboxImg" src="" alt="" />
+      <figcaption id="lightboxCaption"></figcaption>
+    </figure>
+    <button class="lightbox__nav lightbox__nav--next" id="lightboxNext" aria-label="Next image">&#8250;</button>
+  </div>
+
+  <button class="to-top" id="toTop" aria-label="Back to top">
+    <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path d="M12 5l7 7-1.4 1.4L13 8.8V19h-2V8.8l-4.6 4.6L5 12z" fill="currentColor"/></svg>
+  </button>
+
+  <div class="toast" id="toast" role="status" aria-live="polite" hidden></div>
+
+  <script src="js/data.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
